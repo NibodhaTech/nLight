@@ -1,0 +1,254 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Nlight</title>
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="css/master-stylesheet.css" />
+<link rel="stylesheet" href="css/custom.css" />
+</head>
+<body ng-controller="mainCtrl"  ng-app="nlightweb">
+<div class="main-wrap">
+	<!-- -->
+    <div class="map-wrap">
+    	<div class="light_wrap">
+        	<a href="#light_det1" ng-click = "light1Click" title="icon_alert" class="icon_light light_alert" id="light1"></a>
+            <div class="tooltip" id="light_det1">
+            	<div class="tool-icon-wrap"></div>
+            	<table width="100%" border="0" class="tooltip-table">
+                  <tr>
+                    <td class="head">Light No</td>
+                    <td>#1923</td>
+                  </tr>
+                  <tr>
+                    <td class="head">Time Stamp</td>
+                    <td>08/01/2015, 08.15 AM</td>
+                  </tr>
+                  <tr>
+                    <td class="head">Zone</td>
+                    <td>Tech Park</td>
+                  </tr>
+                  <tr>
+                    <td class="head">Latitude</td>
+                    <td>13.081604</td>
+                  </tr>
+                  <tr>
+                    <td class="head">Longitude</td>
+                    <td>80.275183</td>
+                  </tr>
+                  <tr>
+                    <td><a ng-click="light1Click()">Control Light</a></td>
+                  </tr>
+                </table>
+            </div>
+        </div>
+        <div class="light_wrap">
+        	<a href="#light_det2" title="icon_dim" class="icon_light light_dim" id="light2"></a>
+            <div class="tooltip" id="light_det2">
+            	<div class="tool-icon-wrap"></div>
+            	<table width="100%" border="0" class="tooltip-table">
+                  <tr>
+                    <td class="head">Light No</td>
+                    <td>#1923</td>
+                  </tr>
+                  <tr>
+                    <td class="head">Time Stamp</td>
+                    <td>08/01/2015, 08.15 AM</td>
+                  </tr>
+                  <tr>
+                    <td class="head">Zone</td>
+                    <td>Tech Park</td>
+                  </tr>
+                  <tr>
+                    <td class="head">Latitude</td>
+                    <td>13.081604</td>
+                  </tr>
+                  <tr>
+                    <td class="head">Longitude</td>
+                    <td>80.275183</td>
+                  </tr>
+                </table>
+            </div>
+        </div>
+        <div class="light_wrap">
+        	<a href="#light_det3" title="icon_fused" class="icon_light light_fused" id="light3"></a>
+            <div class="tooltip" id="light_det3">
+            	<div class="tool-icon-wrap"></div>
+            	<table width="100%" border="0" class="tooltip-table">
+                  <tr>
+                    <td class="head">Light No</td>
+                    <td>#1923</td>
+                  </tr>
+                  <tr>
+                    <td class="head">Time Stamp</td>
+                    <td>08/01/2015, 08.15 AM</td>
+                  </tr>
+                  <tr>
+                    <td class="head">Zone</td>
+                    <td>Tech Park</td>
+                  </tr>
+                  <tr>
+                    <td class="head">Latitude</td>
+                    <td>13.081604</td>
+                  </tr>
+                  <tr>
+                    <td class="head">Longitude</td>
+                    <td>80.275183</td>
+                  </tr>
+                </table>
+            </div>
+        </div>
+        <div class="light_wrap">
+        	<a href="#light_det4" title="icon_on" class="icon_light light_on" id="light4"></a>
+            <div class="tooltip" id="light_det4">
+            	<div class="tool-icon-wrap"></div>
+            	<table width="100%" border="0" class="tooltip-table">
+                  <tr>
+                    <td class="head">Light No</td>
+                    <td>#1923</td>
+                  </tr>
+                  <tr>
+                    <td class="head">Time Stamp</td>
+                    <td>08/01/2015, 08.15 AM</td>
+                  </tr>
+                  <tr>
+                    <td class="head">Zone</td>
+                    <td>Tech Park</td>
+                  </tr>
+                  <tr>
+                    <td class="head">Latitude</td>
+                    <td>13.081604</td>
+                  </tr>
+                  <tr>
+                    <td class="head">Longitude</td>
+                    <td>80.275183</td>
+                  </tr>
+                </table>
+            </div>
+        </div>
+        <div class="light_wrap">
+        	<a href="#light_det5" title="icon_off" class="icon_light light_off" id="light5"></a>
+            <div class="tooltip" id="light_det5">
+            	<div class="tool-icon-wrap"></div>
+            	<table width="100%" border="0" class="tooltip-table">
+                  <tr>
+                    <td class="head">Light No</td>
+                    <td>#1923</td>
+                  </tr>
+                  <tr>
+                    <td class="head">Time Stamp</td>
+                    <td>08/01/2015, 08.15 AM</td>
+                  </tr>
+                  <tr>
+                    <td class="head">Zone</td>
+                    <td>Tech Park</td>
+                  </tr>
+                  <tr>
+                    <td class="head">Latitude</td>
+                    <td>13.081604</td>
+                  </tr>
+                  <tr>
+                    <td class="head">Longitude</td>
+                    <td>80.275183</td>
+                  </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+	<!-- Menu section -->
+	<div class="menu-wrap">
+        <ul class="menulist">
+        	<li class="logo-sec"><a href="#" class="logo" title="Logo"><img src="images/logo.png" alt="Logo" /></a></li>
+        	<li><a href="#" class="menu db" title="">Dashboard</a></li>
+            <li><a href="#" class="menu zone" title="">Zone</a></li>
+            <li><a href="#" class="menu mlc" title="">MLC</a></li>
+            <li><a href="#" class="menu dps" title="">DPS</a></li>
+            <li><a href="#" class="menu sch" title="">Scheduler</a></li>
+            <li><a href="#" class="menu alarm" title="">Alarm</a></li>
+            <li><a href="#" class="menu dimpro" title="">Dimming Profile</a></li>
+            <li><a href="#" class="menu dev" title="">Device Lifetime</a></li>
+            <li><a href="#" class="menu report" title="">Report</a></li>
+            <li><a href="#" class="menu userpro" title="">User Profile</a></li>
+            <li><a href="#" class="menu user" title="">User</a></li>
+        </ul>
+    </div>
+    <!-- Admin section -->
+    <div class="admin-wrap">
+    	<ul class="adminlist">
+        	<li class="noti"><span>25</span></li>
+            <li class="admin">Admin</li>
+            <li class="user">Joe Smith <span class="arrow"></span></li>
+        </ul>
+    </div>
+    <!-- Information section -->
+    <div class="info-wrap" ng-show="lightInfo">
+    	<span class="close" ng-click="closeButton()">X</span>
+        <div class="info-inner-wrap">
+            <div class="title-wrap">
+            	<h3 class="title">Light Information</h3>
+                <p class="switch red"><span class="circle"></span></p>
+            </div>
+            <div class="control-wrap">
+                <div class="row row1">
+                    <p id="rot_0" class="control-icon select"><a href="#" title="" class="bright"></a></p>
+                </div>
+                <div class="row row2">
+                    <div class="col col_1">
+                        <p id="rot_270" class="control-icon"><a ng-click="roundClickLeft()" title="" class="info"></a></p>
+                    </div>
+                    <div class="col col_2">
+                        <div class="turn_arrow"></div>
+                    </div>
+                    <div class="col col_3">
+                        <p id="rot_90" class="control-icon"><a href="#" title="" class="energy"></a></p>
+                    </div>
+                </div>
+                <div class="row row3">
+                    <p id="rot_180" class="control-icon"><a href="#" title="" class="setting"></a></p>
+                </div>
+            </div>
+            <div class="range-wrap">
+                <h3 class="title">Brightness</h3>
+                <div class="slider-wrap">
+                    <div class="val-row">
+                        <span class="range-val val_start">0</span>
+                        <span class="range-val val_end" id="output1">100</span>
+                    </div>
+                    <input type="text" data-slider="true" data-slider-range="1,100" id="slide1" class="range-slide">
+                </div>
+            </div>
+            <div class="desc-wrap clearfix">
+                <h3 class="title">Description</h3>
+                <p class="desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, incididunt ut labore et dolore magna aliqua.</p>
+                <table width="100%" border="0" cellspacing="0" cellpadding="0" class="desc-table">
+                  <tr><td class="title_col" width="110px">Zone</td><td>Tech Park</td></tr>
+                  <tr><td class="title_col">Temperature</td><td>84 C</td></tr>
+                  <tr><td>&nbsp;</td><td>29 F</td></tr>
+                </table>
+            </div>
+        </div>
+    </div>
+    <!-- Footer section -->
+    <div class="footer-wrap">
+    	<ul class="footlist">
+        	<li class="foot-title">Light Legends</li>
+            <li class="on">On</li>
+            <li class="dim">Dim</li>
+            <li class="off">Off</li>
+            <li class="alert">Alert</li>
+            <li class="fused">Fused</li>
+        </ul>
+    </div>
+</div>
+<script type="text/javascript" src="js/1.9.1-jquery.min.js"></script>
+<script type="text/javascript" src="js/jQueryRotate.js"></script>
+<script type="text/javascript" src="js/simple-slider.js"></script>
+<script type="text/javascript" src="js/jquery.qtip.js"></script>
+<script type="text/javascript" src="js/theme.js"></script>
+<script type="text/javascript" src="js/angular/angular.js"></script>
+<script type="text/javascript" src="js/angular/angular-route.js"></script>
+
+<script type="text/javascript" src="js/angular/angular-sanitize.js"></script>
+<script type="text/javascript" src="js/app/app.js"></script>
+</body>
+</html>
