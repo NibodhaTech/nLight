@@ -42,33 +42,137 @@
 #light1 {
 	left: 50%;
 	top: 50%;
-	margin-left: -120px;
-	margin-top: 20px;
+	margin-left: -323px;
+	margin-top: 92px;
 }
 #light2 {
 	left: 50%;
 	top: 50%;
-	margin-left: -80px;
-	margin-top: 40px;
+	margin-left: -318px;
+	margin-top: 18px;
 }
 #light3 {
 	left: 50%;
 	top: 50%;
-	margin-left: -40px;
-	margin-top: 25px;
+	margin-left: -291px;
+	margin-top: -43px;
 }
 #light4 {
 	left: 50%;
 	top: 50%;
-	margin-left: -0px;
-	margin-top: 50px;
+	margin-left: -173px;
+	margin-top: -97px;
 }
 #light5 {
 	left: 50%;
 	top: 50%;
-	margin-left: 50px;
-	margin-top: 70px;
+	margin-left: 90px;
+	margin-top: -89px;
 }
+#light6 {
+	left: 50%;
+	top: 50%;
+	margin-left: 32px;
+	margin-top: -173px;
+}
+
+#light7 {
+	left: 50%;
+	top: 50%;
+	margin-left: -94px;
+	margin-top: -127px;
+}
+
+#light8 {
+	left: 50%;
+	top: 50%;
+	margin-left: 87px;
+	margin-top: 35px;
+}
+
+
+#light9 {
+	left: 50%;
+	top: 50%;
+	margin-left: 127px;
+	margin-top: 120px;
+}
+#light10 {
+	left: 50%;
+	top: 50%;
+	margin-left: 276px;
+	margin-top: 132px;
+}
+#light11 {
+	left: 50%;
+	top: 50%;
+	margin-left: 374px;
+	margin-top: 186px;
+}
+#light12 {
+	left: 50%;
+	top: 50%;
+	margin-left: 415px;
+	margin-top: 96px;
+}
+#light13 {
+	left: 50%;
+	top: 50%;
+	margin-left: 436px;
+	margin-top: -2px;
+}
+#light14 {
+	left: 50%;
+	top: 50%;
+	margin-left: 520px;
+	margin-top: 2px;
+}
+#light15 {
+	left: 50%;
+	top: 50%;
+	margin-left: 357px;
+	margin-top: -10px;
+}
+#light16 {
+	left: 50%;
+	top: 50%;
+	margin-left: 290px;
+	margin-top: -14px;
+}
+#light17 {
+	left: 50%;
+	top: 50%;
+	margin-left: 275px;
+	margin-top: -77px;
+}
+#light18 {
+	left: 50%;a
+	top: 50%;
+	margin-left: 220px;
+	margin-top: -110px;
+}
+#light19 {
+	left: 50%;
+	top: 50%;
+	margin-left: 220px;
+	margin-top: 78px;
+}
+
+#light20 {
+	left: 50%;
+	top: 50%;
+	margin-left: 2px;
+	margin-top: 116px;
+}
+
+#light21 {
+	left: 50%;
+	top: 50%;
+	margin-left: -185px;
+	margin-top: 110px;
+}
+
+
 .tooltip {
 	display: none;
 }
@@ -539,4 +643,161 @@
 }
 .footlist li.fused {
 	background: url(../images/legend_fused.png) no-repeat left center;
+}
+
+/************************** Login Implementation ***************************/
+
+.signinContainer {
+	 padding-top: 20px;
+    width: 406px;
+    max-width: 406px;
+    margin: 0 auto;
+}
+
+#signup {
+    padding: 0px 25px 25px;
+    background: #fff;
+    box-shadow: 
+        0px 0px 0px 5px rgba( 255,255,255,0.4 ), 
+        0px 4px 20px rgba( 0,0,0,0.33 );
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    display: table;
+    position: static;
+}
+
+#signup .header {
+    margin-bottom: 20px;
+}
+
+#signup .header h3 {
+    color: #333333;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+#signup .header p {
+    color: #8f8f8f;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+#signup .sep {
+    height: 1px;
+    background: #e8e8e8;
+    width: 406px;
+    margin: 0px -25px;
+}
+
+#signup .inputs {
+    margin-top: 25px;
+}
+
+#signup .inputs label {
+    color: #8f8f8f;
+    font-size: 12px;
+    font-weight: 300;
+    letter-spacing: 1px;
+    margin-bottom: 7px;
+    display: block;
+}
+
+input::-webkit-input-placeholder {
+    color:    #b5b5b5;
+}
+
+input:-moz-placeholder {
+    color:    #b5b5b5;
+}
+
+#signup .inputs input[type=email], input[type=password] {
+    background: #f5f5f5;
+    font-size: 0.8rem;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    border: none;
+    padding: 13px 10px;
+    width: 330px;
+    margin-bottom: 20px;
+    box-shadow: inset 0px 2px 3px rgba( 0,0,0,0.1 );
+    clear: both;
+}
+
+#signup .inputs input[type=email]:focus, input[type=password]:focus {
+    background: #fff;
+    box-shadow: 0px 0px 0px 3px #fff38e, inset 0px 2px 3px rgba( 0,0,0,0.2 ), 0px 5px 5px rgba( 0,0,0,0.15 );
+    outline: none;   
+}
+
+#signup .inputs .checkboxy {
+    display: block;
+    position: static;
+    height: 25px;
+    margin-top: 10px;
+    clear: both;
+}
+
+#signup .inputs input[type=checkbox] {
+    float: left;
+    margin-right: 10px;
+    margin-top: 3px;
+}
+
+#signup .inputs label.terms {
+    float: left;
+    font-size: 14px;
+    font-style: italic;
+}
+
+#signup .inputs #submit {
+    width: 100%;
+    margin-top: 20px;
+    padding: 15px 0;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-align: center;
+    text-decoration: none;
+        background: -moz-linear-gradient(
+        top,
+        #b9c5dd 0%,
+        #a4b0cb);
+    background: -webkit-gradient(
+        linear, left top, left bottom, 
+        from(#b9c5dd),
+        to(#a4b0cb));
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    border: 1px solid #737b8d;
+    -moz-box-shadow:
+        0px 5px 5px rgba(000,000,000,0.1),
+        inset 0px 1px 0px rgba(255,255,255,0.5);
+    -webkit-box-shadow:
+        0px 5px 5px rgba(000,000,000,0.1),
+        inset 0px 1px 0px rgba(255,255,255,0.5);
+    box-shadow:
+        0px 5px 5px rgba(000,000,000,0.1),
+        inset 0px 1px 0px rgba(255,255,255,0.5);
+    text-shadow:
+        0px 1px 3px rgba(000,000,000,0.3),
+        0px 0px 0px rgba(255,255,255,0);
+    display: table;
+    position: static;
+    clear: both;
+}
+
+#signup .inputs #submit:hover {
+    background: -moz-linear-gradient(
+        top,
+        #a4b0cb 0%,
+        #b9c5dd);
+    background: -webkit-gradient(
+        linear, left top, left bottom, 
+        from(#a4b0cb),
+        to(#b9c5dd));
 }

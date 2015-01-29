@@ -1,15 +1,3 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>Nlight</title>
-<link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
-<link rel="stylesheet" href="css/master-stylesheet.css" />
-<link rel="stylesheet" href="css/custom.css" />
-<link rel="stylesheet" href="css/nsPopover.css" />
-<link rel="stylesheet" href="css/angular-ui-switch.css" />
-</head>
-<body ng-controller="mainCtrl"  ng-app="nlightweb">
 
 <script type="text/ng-template" id="tooltip">
 
@@ -41,271 +29,162 @@
                 </table>
   </script>
 
-<div ng-show="showLogin">
-  <div class="signinContainer">
-
-    <form id="signup">
-
-        <div class="header">
-        
-            <h3>Sign In</h3>
-            
-            <p>Just SignIn From Facebook</p>
-            
-        </div>
-        
-        <div class="sep"></div>
-
-        <div class="inputs">
-        
-            
-            
-            <a id="submit" ng-click="loginWithFB()">SIGN IN WITH FACEBOOK</a>
-        
-        </div>
-
-    </form>
-
-</div>
-
-</div>
-
-<div class="main-wrap" ng-show="showHome">
-  <!-- -->
+<div class="main-wrap">
+	<!-- -->
     <div class="map-wrap">
 
-      <div class="light_wrap">
-        <a title="icon_alert" class="{{light1StyleClass}}" ng-click="loadPopupAction(1)" id="light1" ns-popover 
+    	<div class="light_wrap">
+
+      <a title="icon_alert" class="{{light1StyleClass}}" ng-click="loadPopupAction(light1)" id="light1" ns-popover 
        ns-popover-template="tooltip"
        ns-popover-trigger="click"
        ns-popover-theme="ns-popover-tooltip-theme"
        ns-popover-placement="top"
        ></a>
-         
-        </div>
 
-         <div class="light_wrap">
-        <a title="icon_alert" class="{{light2StyleClass}}" ng-click="loadPopupAction(2)" id="light2" ns-popover 
+       <a title="icon_alert" class="{{light2StyleClass}}" id="light2" ng-click="loadPopupAction('light2')" ns-popover 
        ns-popover-template="tooltip"
        ns-popover-trigger="click"
        ns-popover-theme="ns-popover-tooltip-theme"
        ns-popover-placement="top"
        ></a>
-         
-        </div>
 
-         <div class="light_wrap">
-        <a title="icon_alert" class="{{light3StyleClass}}" ng-click="loadPopupAction(3)" id="light3" ns-popover 
+       <a title="icon_alert" class="{{light3StyleClass}}" id="light3" ng-click="loadPopupAction('light3')" ns-popover 
        ns-popover-template="tooltip"
        ns-popover-trigger="click"
        ns-popover-theme="ns-popover-tooltip-theme"
        ns-popover-placement="top"
        ></a>
-         
-        </div>
 
-         <div class="light_wrap">
-        <a title="icon_alert" class="{{light4StyleClass}}" ng-click="loadPopupAction(4)" id="light4" ns-popover 
+       <a title="icon_alert" class="{{light4StyleClass}}" id="light4" ng-click="loadPopupAction('light4')" ns-popover 
        ns-popover-template="tooltip"
        ns-popover-trigger="click"
        ns-popover-theme="ns-popover-tooltip-theme"
        ns-popover-placement="top"
        ></a>
-         
-        </div>
 
-         <div class="light_wrap">
-        <a title="icon_alert" class="{{light5StyleClass}}" ng-click="loadPopupAction(5)" id="light5" ns-popover 
+       <a title="icon_alert" class="{{light5StyleClass}}" id="light5" ng-click="loadPopupAction('light5')" ns-popover 
        ns-popover-template="tooltip"
        ns-popover-trigger="click"
        ns-popover-theme="ns-popover-tooltip-theme"
        ns-popover-placement="top"
        ></a>
-         
-        </div>
 
-
-         <div class="light_wrap">
-        <a title="icon_alert" class="{{light6StyleClass}}" ng-click="loadPopupAction(6)" id="light6" ns-popover 
+       <a title="icon_alert" class="{{light6StyleClass}}" id="light6" ng-click="loadPopupAction('light6')" ns-popover 
        ns-popover-template="tooltip"
        ns-popover-trigger="click"
        ns-popover-theme="ns-popover-tooltip-theme"
        ns-popover-placement="top"
        ></a>
-         
-        </div>
 
-
-         <div class="light_wrap">
-        <a title="icon_alert" class="{{light7StyleClass}}" ng-click="loadPopupAction(7)" id="light7" ns-popover 
+       <a title="icon_alert" class="{{light7StyleClass}}" id="light7" ng-click="loadPopupAction('light7')" ns-popover 
        ns-popover-template="tooltip"
        ns-popover-trigger="click"
        ns-popover-theme="ns-popover-tooltip-theme"
        ns-popover-placement="top"
        ></a>
-         
-        </div>
 
-
-         <div class="light_wrap">
-        <a title="icon_alert" class="{{light8StyleClass}}" ng-click="loadPopupAction(8)" id="light8" ns-popover 
+       <a title="icon_alert" class="{{light8StyleClass}}" id="light8" ng-click="loadPopupAction('light8')" ns-popover 
        ns-popover-template="tooltip"
        ns-popover-trigger="click"
        ns-popover-theme="ns-popover-tooltip-theme"
        ns-popover-placement="top"
        ></a>
-         
-        </div>
 
-         <div class="light_wrap">
-        <a title="icon_alert" class="{{light9StyleClass}}" ng-click="loadPopupAction(9)" id="light9" ns-popover 
+       <a title="icon_alert" class="{{light9StyleClass}}" id="light9" ng-click="loadPopupAction('light9')" ns-popover 
        ns-popover-template="tooltip"
        ns-popover-trigger="click"
        ns-popover-theme="ns-popover-tooltip-theme"
        ns-popover-placement="top"
        ></a>
-         
-        </div>
 
-         <div class="light_wrap">
-        <a title="icon_alert" class="{{light10StyleClass}}" ng-click="loadPopupAction(10)" id="light10" ns-popover 
+       <a title="icon_alert" class="{{light10StyleClass}}" id="light10" ng-click="loadPopupAction('light10')" ns-popover 
        ns-popover-template="tooltip"
        ns-popover-trigger="click"
        ns-popover-theme="ns-popover-tooltip-theme"
        ns-popover-placement="top"
        ></a>
-         
-        </div>
 
-
-         <div class="light_wrap">
-        <a title="icon_alert" class="{{light11StyleClass}}" ng-click="loadPopupAction(11)" id="light11" ns-popover 
+       <a title="icon_alert" class="{{light11StyleClass}}" id="light11" ng-click="loadPopupAction('light11')" ns-popover 
        ns-popover-template="tooltip"
        ns-popover-trigger="click"
        ns-popover-theme="ns-popover-tooltip-theme"
        ns-popover-placement="top"
        ></a>
-         
-        </div>
 
-         <div class="light_wrap">
-        <a title="icon_alert" class="{{light12StyleClass}}" ng-click="loadPopupAction(12)" id="light12" ns-popover 
+       <a title="icon_alert" class="{{light12StyleClass}}" id="light12" ng-click="loadPopupAction('light12')" ns-popover 
        ns-popover-template="tooltip"
        ns-popover-trigger="click"
        ns-popover-theme="ns-popover-tooltip-theme"
        ns-popover-placement="top"
        ></a>
-         
-        </div>
 
-         <div class="light_wrap">
-        <a title="icon_alert" class="{{light13StyleClass}}" ng-click="loadPopupAction(13)" id="light13" ns-popover 
+        <a title="icon_alert" class="{{light13StyleClass}}" id="light13" ng-click="loadPopupAction('light13')" ns-popover 
        ns-popover-template="tooltip"
        ns-popover-trigger="click"
        ns-popover-theme="ns-popover-tooltip-theme"
        ns-popover-placement="top"
        ></a>
-         
-        </div>
 
-
-         <div class="light_wrap">
-        <a title="icon_alert" class="{{light14StyleClass}}" ng-click="loadPopupAction(14)" id="light14" ns-popover 
+        <a title="icon_alert" class="{{light14StyleClass}}" id="light14" ng-click="loadPopupAction('light14')" ns-popover 
        ns-popover-template="tooltip"
        ns-popover-trigger="click"
        ns-popover-theme="ns-popover-tooltip-theme"
        ns-popover-placement="top"
        ></a>
-         
-        </div>
 
-         <div class="light_wrap">
-        <a title="icon_alert" class="{{light15StyleClass}}" ng-click="loadPopupAction(15)" id="light15" ns-popover 
+        <a title="icon_alert" class="{{light15StyleClass}}" id="light15" ng-click="loadPopupAction('light15')" ns-popover 
        ns-popover-template="tooltip"
        ns-popover-trigger="click"
        ns-popover-theme="ns-popover-tooltip-theme"
        ns-popover-placement="top"
        ></a>
-         
-        </div>
 
-
-         <div class="light_wrap">
-        <a title="icon_alert" class="{{light16StyleClass}}" ng-click="loadPopupAction(16)" id="light16" ns-popover 
+        <a title="icon_alert" class="{{light16StyleClass}}" id="light16" ng-click="loadPopupAction('light16')" ns-popover 
        ns-popover-template="tooltip"
        ns-popover-trigger="click"
        ns-popover-theme="ns-popover-tooltip-theme"
        ns-popover-placement="top"
        ></a>
-         
-        </div>
 
-
-         <div class="light_wrap">
-        <a title="icon_alert" class="{{light17StyleClass}}" ng-click="loadPopupAction(17)" id="light17" ns-popover 
+        <a title="icon_alert" class="{{light17StyleClass}}" id="light17" ng-click="loadPopupAction('light17')" ns-popover 
        ns-popover-template="tooltip"
        ns-popover-trigger="click"
        ns-popover-theme="ns-popover-tooltip-theme"
        ns-popover-placement="top"
        ></a>
-         
-        </div>
 
-
-         <div class="light_wrap">
-        <a title="icon_alert" class="{{light18StyleClass}}" ng-click="loadPopupAction(18)" id="light18" ns-popover 
+        <a title="icon_alert" class="{{light18StyleClass}}" id="light18" ng-click="loadPopupAction('light18')" ns-popover 
        ns-popover-template="tooltip"
        ns-popover-trigger="click"
        ns-popover-theme="ns-popover-tooltip-theme"
        ns-popover-placement="top"
        ></a>
-         
-        </div>
 
-
-         <div class="light_wrap">
-        <a title="icon_alert" class="{{light19StyleClass}}" ng-click="loadPopupAction(19)" id="light19" ns-popover 
+        <a title="icon_alert" class="{{light19StyleClass}}" id="light19" ng-click="loadPopupAction('light19')" ns-popover 
        ns-popover-template="tooltip"
        ns-popover-trigger="click"
        ns-popover-theme="ns-popover-tooltip-theme"
        ns-popover-placement="top"
        ></a>
-         
-        </div>
 
-
-         <div class="light_wrap">
-        <a title="icon_alert" class="{{light20StyleClass}}" ng-click="loadPopupAction(20)" id="light20" ns-popover 
+        <a title="icon_alert" class="{{light20StyleClass}}" id="light21" ng-click="loadPopupAction('light21')" ns-popover 
        ns-popover-template="tooltip"
        ns-popover-trigger="click"
        ns-popover-theme="ns-popover-tooltip-theme"
        ns-popover-placement="top"
        ></a>
-         
+
+          
         </div>
-
-         <div class="light_wrap">
-        <a title="icon_alert" class="{{light21StyleClass}}" ng-click="loadPopupAction(21)" id="light21" ns-popover 
-       ns-popover-template="tooltip"
-       ns-popover-trigger="click"
-       ns-popover-theme="ns-popover-tooltip-theme"
-       ns-popover-placement="top"
-       ></a>
-         
-        </div>
-
-        <!--Additional Lights -->
-    
-
-        <!-- Additional Lights Ends-->
         
         
     </div>
-  <!-- Menu section -->
-  <div class="menu-wrap">
+	<!-- Menu section -->
+	<div class="menu-wrap">
         <ul class="menulist">
-          <li class="logo-sec"><a href="#" class="logo" title="Logo"><img src="images/logo.png" alt="Logo" /></a></li>
-          <li><a href="#" class="menu db" title="">Dashboard</a></li>
+        	<li class="logo-sec"><a href="#" class="logo" title="Logo"><img src="images/logo.png" alt="Logo" /></a></li>
+        	<li><a href="#" class="menu db" title="">Dashboard</a></li>
             <li><a href="#" class="menu zone" title="">Zone</a></li>
             <li><a href="#" class="menu mlc" title="">MLC</a></li>
             <li><a href="#" class="menu dps" title="">DPS</a></li>
@@ -320,38 +199,38 @@
     </div>
     <!-- Admin section -->
     <div class="admin-wrap">
-      <ul class="adminlist">
-          <li class="noti"><span>25</span></li>
+    	<ul class="adminlist">
+        	<li class="noti"><span>25</span></li>
             <li class="admin">Admin</li>
             <li class="user">Joe Smith <span class="arrow"></span></li>
         </ul>
     </div>
     <!-- Information section -->
     <div class="info-wrap" ng-show="lightInfo">
-      <span class="close" ng-click="closeButton()">X</span>
+    	<span class="close" ng-click="closeButton()">X</span>
         <div class="info-inner-wrap">
             <div class="title-wrap">
-              <h3 class="title">Light Information</h3>
-                <!-- <p class="switch red"><span class="circle"></span></p> -->
-                  <!-- <switch name="onoffswitch" ng-model="onoffswitch"></switch> -->
+            	<h3 class="title">Light Information</h3>
+                <p class="switch red"><span class="circle" ng-click="onoffcontrol()"></span></p>
             </div>
             <div class="control-wrap">
                 <div class="row row1">
-                    <p id="rot_0" class="control-icon select"><a ng-click="roundClickTop()" title="" class="bright"></a></p>
+                    <p id="rot_0" class="control-icon select"><a ng-click="rotate('-45')" title="" class="bright"></a></p>
                 </div>
                 <div class="row row2">
                     <div class="col col_1">
-                        <p id="rot_270" class="control-icon"><a ng-click="roundClickLeft()" title="" class="info"></a></p>
+                        <p id="rot_270" class="control-icon"><a ng-click="rotate('-135')" title="" class="info"></a></p>
                     </div>
                     <div class="col col_2">
-                        <div class="turn_arrow"></div>
+                        <!-- <div class="turn_arrow"></div> -->
+                        <img degrees='angle' rotate src='images/tunner.png' />
                     </div>
                     <div class="col col_3">
-                        <p id="rot_90" class="control-icon"><a ng-click="roundClickRight()" title="" class="energy"></a></p>
+                        <p id="rot_90" class="control-icon"><a ng-click="rotate('-180')" title="" class="energy"></a></p>
                     </div>
                 </div>
                 <div class="row row3">
-                    <p id="rot_180" class="control-icon"><a ng-click="roundClickBottom()" title="" class="setting"></a></p>
+                    <p id="rot_180" class="control-icon"><a ng-click="rotate('-270')" title="" class="setting"></a></p>
                 </div>
             </div>
            
@@ -387,8 +266,8 @@
     </div>
     <!-- Footer section -->
     <div class="footer-wrap">
-      <ul class="footlist">
-          <li class="foot-title">Light Legends</li>
+    	<ul class="footlist">
+        	<li class="foot-title">Light Legends</li>
             <li class="on">On</li>
             <li class="dim">Dim</li>
             <li class="off">Off</li>
@@ -397,20 +276,3 @@
         </ul>
     </div>
 </div>
-<script type="text/javascript" src="js/1.9.1-jquery.min.js"></script>
-<script type="text/javascript" src="js/jQueryRotate.js"></script>
-<script type="text/javascript" src="js/simple-slider.js"></script>
-<script type="text/javascript" src="js/jquery.qtip.js"></script>
-<script type="text/javascript" src="js/theme.js"></script>
-<script type="text/javascript" src="js/angular/angular.js"></script>
-<script type="text/javascript" src="js/angular/angular-route.js"></script>
-
-<script type="text/javascript" src="js/angular/angular-sanitize.js"></script>
-<script type="text/javascript" src="js/angular/angular-google-maps.min.js"></script>
-<script type="text/javascript" src="js/angular/ngFacebook.js"></script>
-<script type="text/javascript" src="js/angular/nsPopover.js"></script>
-<script type="text/javascript" src="js/angular/angular-ui-switch.js"></script>
-<script type="text/javascript" src="js/app/app.js"></script>
-<script type="text/javascript" src="js/app/app.js"></script>
-</body>
-</html>
